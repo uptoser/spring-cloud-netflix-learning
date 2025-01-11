@@ -21,7 +21,7 @@
         <module>springcloud-netflix-config-server-5001</module>
         <module>springcloud-netflix-config-client-8080</module>
         <module>springcloud-netflix-eureka-config-6001</module>
-        <module>springcloud-netflix-product-config-8001</module>
+        <module>springcloud-netflix-provider-product-config-8001</module>
     </modules>
     <packaging>pom</packaging>
 
