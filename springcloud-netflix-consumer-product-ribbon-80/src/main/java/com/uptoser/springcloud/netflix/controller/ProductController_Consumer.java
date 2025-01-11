@@ -16,7 +16,12 @@ import java.util.List;
 public class ProductController_Consumer {
 
     //private static final String REST_URL_PREFIX = "http://localhost:8001";
-    //修改为商品提供者向Eureka服务器中注册的地址
+
+    /*
+    修改为商品提供者向Eureka服务器中注册的地址
+    microservice-product是用户微服务的虚拟主机名（virtual host name），
+    当Ribbon和Eureka配合使用时，会自动将虚拟主机名映射成微服务的网络地址
+     */
     private static final String REST_URL_PREFIX = "http://microservice-product";
 
     @Autowired

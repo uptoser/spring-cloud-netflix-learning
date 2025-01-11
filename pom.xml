@@ -10,18 +10,18 @@
     <modules>
         <module>springcloud-netflix-api</module>
         <module>springcloud-netflix-provider-product-8001</module>
-        <module>springcloud-netflix-consumer-product-80</module>
-        <module>springcloud-netflix-eureka-6001</module>
-        <module>springcloud-netflix-eureka-6002</module>
         <module>springcloud-netflix-provider-product-8002</module>
-        <module>springcloud-netflix-consumer-product-feign-80</module>
         <module>springcloud-netflix-provider-product-hystrix-8001</module>
         <module>springcloud-netflix-hystrix-dashboard-9001</module>
+        <module>springcloud-netflix-provider-product-config-8001</module>
+        <module>springcloud-netflix-consumer-product-ribbon-80</module>
+        <module>springcloud-netflix-consumer-product-feign-80</module>
+        <module>springcloud-netflix-eureka-6001</module>
+        <module>springcloud-netflix-eureka-6002</module>
         <module>springcloud-netflix-zuul-gateway-7001</module>
         <module>springcloud-netflix-config-server-5001</module>
         <module>springcloud-netflix-config-client-8080</module>
         <module>springcloud-netflix-eureka-config-6001</module>
-        <module>springcloud-netflix-provider-product-config-8001</module>
     </modules>
     <packaging>pom</packaging>
 

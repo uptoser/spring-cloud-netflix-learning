@@ -2,9 +2,6 @@ package com.uptoser.springcloud.netflix.entities;
 
 import java.io.Serializable;
 
-/**
- * @Auther: 梦学谷
- */
 public class Product implements Serializable {
 
     private Long  pid;   //主键

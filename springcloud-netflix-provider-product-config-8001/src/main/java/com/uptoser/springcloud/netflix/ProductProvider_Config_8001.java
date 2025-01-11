@@ -8,7 +8,7 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 /**
  * @Auther: 梦学谷
  */
-@MapperScan("com.mengxuegu.springcloud.mapper")
+@MapperScan("com.uptoser.springcloud.netflix.mapper")
 @EnableEurekaClient
 @SpringBootApplication
 public class ProductProvider_Config_8001 {

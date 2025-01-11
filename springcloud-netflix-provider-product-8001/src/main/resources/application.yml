@@ -3,7 +3,7 @@ server:
 
 mybatis:
   config-location: classpath:mybatis/mybatis.cfg.xml        # mybatis配置文件所在路径
-  type-aliases-package: com.mengxuegu.springcloud.entities  # 所有Entity别名类所在包
+  type-aliases-package: com.uptoser.springcloud.netflix.entities  # 所有Entity别名类所在包
   mapper-locations: classpath:mybatis/mapper/**/*.xml       # mapper映射文件
 
 spring:
@@ -12,9 +12,9 @@ spring:
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource            # 当前数据源操作类型
     driver-class-name: com.mysql.cj.jdbc.Driver             # mysql驱动包
-    url: jdbc:mysql://127.0.0.1:3306/springcloud_db01?serverTimezone=GMT%2B8  # 数据库名称
-    username: root
-    password: root
+    url: jdbc:mysql://192.168.3.200:3306/springcloud_db01?serverTimezone=GMT%2B8  # 数据库名称
+    username: mysql
+    password: mysql
     dbcp2:
       min-idle: 5                                # 数据库连接池的最小维持连接数
       initial-size: 5                            # 初始化连接数
@@ -30,4 +30,4 @@ eureka:
       defaultZone: http://eureka6001.com:6001/eureka,http://eureka6002.com:6002/eureka
   instance:
     instanceId: ${spring.application.name}:${server.port} # 等价于microservice-product:8001
-    prefer-ip-address: true #访问路径就会显示成IP地址
+    prefer-ip-address: true # 表示将自己的IP注册到Eureka；若不配置该属性或将其设置为false，则表示注册微服务所在操作系统的主机名

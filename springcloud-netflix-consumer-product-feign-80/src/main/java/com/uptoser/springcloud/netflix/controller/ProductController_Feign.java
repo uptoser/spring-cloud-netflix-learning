@@ -9,9 +9,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
 
-/**
- * @Auther: 梦学谷
- */
 @RestController
 public class ProductController_Feign {
 
