@@ -10,20 +10,19 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 /**
- * @Auther: 梦学谷
+ * 如果需要在自定义类中获取更新配置内容,则需要在此类上添加 @RefreshScope 才会获得更新的内容
  */
-
-@RefreshScope //刷新配置
+//@RefreshScope //刷新配置
 @RestController
 public class ProductController {
 
-    @Value("${emp.name}")
-    private String name;
-
-    @GetMapping("/hello")
-    public String hello() {
-        return name;
-    }
+//    @Value("${emp.name}")
+//    private String name;
+//
+//    @GetMapping("/hello")
+//    public String hello() {
+//        return name;
+//    }
 
     @Autowired
     private ProductService productService;

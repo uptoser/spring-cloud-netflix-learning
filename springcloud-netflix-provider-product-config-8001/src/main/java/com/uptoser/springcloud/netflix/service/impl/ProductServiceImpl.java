@@ -8,9 +8,6 @@ import org.springframework.stereotype.Service;
 
 import java.util.List;
 
-/**
- * @Auther: 梦学谷
- */
 @Service //一定不要少了
 public class ProductServiceImpl implements ProductService {
 
