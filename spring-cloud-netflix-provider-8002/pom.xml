@@ -3,14 +3,13 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>springcloud-netflix-learning</artifactId>
+        <artifactId>spring-cloud-netflix-learning</artifactId>
         <groupId>com.uptoser</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>springcloud-netflix-product-config-8001</artifactId>
-
+    <artifactId>spring-cloud-netflix-provider-8002</artifactId>
 
     <dependencies>
         <dependency>
@@ -18,29 +17,12 @@
             <artifactId>springcloud-netflix-api</artifactId>
             <version>${project.version}</version>
         </dependency>
-        <!--Bus 与 rabbitMQ依赖-->
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-bus-amqp</artifactId>
-        </dependency>
-        <!--监听器-->
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-actuator</artifactId>
-        </dependency>
-
-        <!-- Spring Cloud Config 客户端依赖-->
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-config</artifactId>
-        </dependency>
 
         <!-- 导入Eureka客户端的依赖，将 微服务提供者 注册进 Eureka -->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
         </dependency>
-
 
         <!--springboot web启动器-->
         <dependency>

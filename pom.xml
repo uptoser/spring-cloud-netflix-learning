@@ -5,26 +5,25 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.uptoser</groupId>
-    <artifactId>springcloud-netflix-learning</artifactId>
+    <artifactId>spring-cloud-netflix-learning</artifactId>
     <version>1.0-SNAPSHOT</version>
     <modules>
-        <module>springcloud-netflix-api</module>
-        <module>springcloud-netflix-provider-product-8001</module>
-        <module>springcloud-netflix-provider-product-8002</module>
-        <module>springcloud-netflix-provider-product-hystrix-8001</module>
-        <module>springcloud-netflix-hystrix-dashboard-9001</module>
-        <module>springcloud-netflix-provider-product-config-8001</module>
-        <module>springcloud-netflix-consumer-product-ribbon-80</module>
-        <module>springcloud-netflix-consumer-product-feign-80</module>
-        <module>springcloud-netflix-eureka-6001</module>
-        <module>springcloud-netflix-eureka-6002</module>
-        <module>springcloud-netflix-zuul-gateway-7001</module>
-        <module>springcloud-netflix-config-server-5001</module>
-        <module>springcloud-netflix-config-client-8080</module>
-        <module>springcloud-netflix-eureka-config-6001</module>
+        <module>spring-cloud-netflix-api</module>
+        <module>spring-cloud-netflix-provider-8001</module>
+        <module>spring-cloud-netflix-provider-8002</module>
+        <module>spring-cloud-netflix-provider-hystrix-8001</module>
+        <module>spring-cloud-netflix-hystrix-dashboard-9001</module>
+        <module>spring-cloud-netflix-provider-config-8001</module>
+        <module>spring-cloud-netflix-consumer-ribbon-80</module>
+        <module>spring-cloud-netflix-consumer-feign-80</module>
+        <module>spring-cloud-netflix-eureka-6001</module>
+        <module>spring-cloud-netflix-eureka-6002</module>
+        <module>spring-cloud-netflix-zuul-gateway-7001</module>
+        <module>spring-cloud-netflix-config-server-5001</module>
+        <module>spring-cloud-netflix-config-client-8080</module>
+        <module>spring-cloud-netflix-eureka-config-6001</module>
     </modules>
     <packaging>pom</packaging>
-
 
     <!-- spring boot 采用 2.0.7 版本 -->
     <parent>
