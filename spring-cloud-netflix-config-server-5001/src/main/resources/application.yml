@@ -8,4 +8,4 @@ spring:
     config:
       server:
         git: # 远程库的git地址
-          uri: C:\Users\Brandon\Downloads\springcloud-netflix-learning\microservice-cloud-config.git
+          uri: C:\Users\Brandon\Downloads\spring-cloud-netflix-learning\microservice-cloud-config.git

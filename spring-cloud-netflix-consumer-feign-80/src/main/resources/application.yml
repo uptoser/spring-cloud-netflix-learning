@@ -11,7 +11,7 @@ eureka:
 
 logging:
   level:
-    com.uptoser.springcloud.netflix.service.ProductClientService: debug # Feign的日志打印只会对DEBUG级别做出响应
+    com.uptoser.spring.cloud.netflix.service.ProductClientService: debug # Feign的日志打印只会对DEBUG级别做出响应
 
 feign:
   hystrix:
